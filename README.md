@@ -47,6 +47,7 @@ JS를 사용하는 이유는 사용자와 인터렉션 할 수 있게 해주는 
 - Node.JS
 
 # Github
+> 취직 전까지 열심히 업로드 하겠습니다.
 ![](https://images.velog.io/images/soulty321/post/d86503d0-92c8-4d9d-937f-9959a7d9de32/git_repo.png)
 
-5. 경력 및 프로젝트
+# 경력 및 프로젝트
