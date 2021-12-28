@@ -131,3 +131,5 @@ JS를 사용하는 이유는 사용자와 인터렉션 할 수 있게 해주는 
 
 링크
 > https://chocolate-bottom-3ac.notion.site/a2674b78d6354b65a624640be6c0727b
+> https://moonhokyun.github.io/Resume_Project/
+> https://www.figma.com/file/FtaGKhIWZelDwaPpDFykXc/resume?node-id=0%3A1
