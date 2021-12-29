@@ -17,13 +17,25 @@
 </head>
 
 <body>
-  <header class="header">
-    <h1 class="header-title">강력한<br>시각 서비스<br>제공에 관심이<br>많습니다</h1>
-  </header>
+  <article class="nav">
+    <section class="nav-title" onclick="f()"><span class="fas fa-bars fa-2x"></span></section>
+    <ul class="nav-dropdown">
+      <li class="nav-li"><a href="#hello">HELLO</a></li>
+      <li class="nav-li"><a href="#info">INFO</a></li>
+      <li class="nav-li"><a href="#Skill-set">SKILL-SET</a></li>
+      <li class="nav-li"><a href="#Study">STUDY</a></li>
+      <li class="nav-li"><a href="#Project">PROJECT</a></li>
+      <li class="nav-li"><a href="#contact">CONTACT</a></li>
+    </ul>
+  </article>
 
   <main>
+    <header class="header">
+      <h1 class="header-title">강력한<br>시각 서비스<br>제공에 관심이<br>많습니다</h1>
+    </header>
 
-    <article class="hello">
+
+    <article id="hello">
       <h2 class="hello-title">안녕하세요<br>FRONT-END DEVELOPER<br>문호균입니다</h2>
       <p class="hello-p hello-one">2018년부터 3년간 무노아트(MUNOART)라는 브랜드를 만고 활동하였습니다. 음악가들이 주 고객으로, 음악가 맞춤 굿즈 제작 330건, 커스텀 케이스
         제작 59건,
@@ -37,7 +49,7 @@
       <img src="./img/1x/li-1.png" alt="" class="hello-img">
     </article>
 
-    <article class="info">
+    <article id="info">
       <h2>My Info</h2>
       <section class="info-all">
 
@@ -67,12 +79,12 @@
         </section>
     </article>
 
-    <article class="Skill-set">
+    <article id="Skill-set">
       <h2>Skill Set</h2>
       <table class="tg">
         <thead>
           <tr>
-            <th class="tg-iks7" rowspan="4">&#11088;&#11088;&#11088;<br>advanced</th>
+            <th class="tg-iks7" rowspan="4">&#11088;&#11088;&#11088; advanced</th>
             <th class="tg-jbyd">HTML/CSS</th>
             <th class="tg-jbyd">JavaScript</th>
             <th class="tg-jbyd">JQurey</th>
@@ -95,13 +107,13 @@
         </thead>
         <tbody>
           <tr>
-            <td class="tg-73oq">&#11088;&#11088;<br>intermediate</td>
+            <td class="tg-73oq">&#11088;&#11088; intermediate</td>
             <td class="tg-wp8o">Git</td>
             <td class="tg-wp8o">Chart.js</td>
             <td class="tg-wp8o">Node.js</td>
           </tr>
           <tr>
-            <td class="tg-73oq">&#11088;<br>beginner</td>
+            <td class="tg-73oq">&#11088; beginner</td>
             <td class="tg-wp8o">React</td>
             <td class="tg-wp8o"></td>
             <td class="tg-wp8o"></td>
@@ -110,7 +122,7 @@
       </table>
     </article>
 
-    <article class="Study">
+    <article id="Study">
       <h2 class="Study-title">강력한 시각 서비스 개발을 위해 중점으로 공부하는 것은 두 가지가 있습니다.</h2>
       <h2 class="Study-subTitle-one">효과적인 UX/UI구현</h2>
       <p class="Study-title-content">사용자를 끌어들이는 UX/UI의 비밀 (Designing Interfaces: Patterns for Effective Interaction
@@ -126,7 +138,7 @@
       <img src="./img/git_repo.png" alt="" class="Study-gitRepo">
     </article>
 
-    <article class="Project">
+    <article id="Project">
       <section class="Project-Content">
         <h2 class="Project-Content-title">PROJECT</h2>
         <h3 class="Project-Content-subTitle">1. DTB Music Studio</h3>
@@ -145,17 +157,19 @@
     </article>
   </main>
 
-  <footer class="contact">
+  <footer id="contact">
     <h2>CONTACT</h2>
     <ul class="contact-box">
       <li class="contact-item"><a href="mailto:soulty321"><i class="fas fa-envelope fa-2x"></i></a></li>
       <li class="contact-item"><a href="https://www.linkedin.com/in/hokyun-moon-a4a515221">
-      <i class="fab fa-linkedin fa-2x"></i></a></li>
+          <i class="fab fa-linkedin fa-2x"></i></a></li>
       <li class="contact-item"><a href="https://github.com/Moonhokyun">
-      <i class="fab fa-github fa-2x"></i></a></li>
-      <li class="contact-item"><a href="https://www.notion.so/a2674b78d6354b65a624640be6c0727b"><i class="fas fa-file fa-2x"></i></a></li>
+          <i class="fab fa-github fa-2x"></i></a></li>
+      <li class="contact-item"><a href="https://www.notion.so/a2674b78d6354b65a624640be6c0727b"><i
+            class="fas fa-file fa-2x"></i></a></li>
     </ul>
   </footer>
+  <script src="./main.js"></script>
 
 </body>
 

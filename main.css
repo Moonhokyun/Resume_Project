@@ -1,9 +1,11 @@
 * {
   font-family: 'Noto Sans', sans-serif;
   color: #747474;
+  text-decoration:none;
+
 }
 
-body {
+main {
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -24,11 +26,72 @@ h2 {
   color: #2D52AB;
 }
 
+/* navbar! */
+.fa-bars {
+  color: #fff;
+}
+
+.nav{
+  width: 100%;
+  margin: auto 0;
+  cursor: pointer;
+  position: fixed;
+}
+
+.nav-title {
+  width: 100%;
+  box-sizing: border-box;
+  background: #2D52AB;
+  padding: 17px 30px 17px 0;
+  position: relative;
+  color: #fff;
+  text-align: right;
+}
+
+.nav-li {
+  float: right;
+  font-size: 18px;
+  padding: 15px 20px 14px;
+  margin: 0;
+  transition: all .1s;
+}
+
+.nav-dropdown {
+  width: 100%;
+  background: #fff;
+  border-radius: 10px;
+
+  box-shadow: rgb(0 0 0/ 20%) 0px 13px 12px 0px;
+  color: #505050;
+
+  max-height: 0;
+  overflow: hidden;
+  transition: all .5s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.down {
+  max-height: 100%;
+}
+
+
+.nav-li:hover {
+  background: #c6daff;
+  width: 100%;
+  -webkit-transform: scale(1.05);
+  color: #fff;
+  text-align: center;
+}
+
+/* navbar! */
+
 .header {
   margin-top: 95px;
 }
 
-.hello {
+#hello {
   margin-top: 72px;
   text-align: right;
   display: flex;
@@ -72,7 +135,7 @@ h2 {
   padding-bottom: 16px;
 }
 
-.Skill-set {
+#Skill-set {
   margin-top: 28px;
   display: flex;
   font-size: 60%;
@@ -124,7 +187,7 @@ h2 {
   vertical-align: top
 }
 
-.Study {
+#Study {
   margin-top: 41px;
 }
 
@@ -191,7 +254,7 @@ h2 {
   font-weight: normal;
 }
 
-.contact {
+#contact {
   margin-top: 32px;
   text-align: center;
 }
