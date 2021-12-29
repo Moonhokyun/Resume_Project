@@ -10,6 +10,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
   <title>Resume-project</title>
 </head>
 
@@ -22,7 +25,8 @@
 
     <article class="hello">
       <h2 class="hello-title">안녕하세요<br>FRONT-END DEVELOPER<br>문호균입니다</h2>
-      <p class="hello-p hello-one">2018년부터 3년간 무노아트(MUNOART)라는 브랜드를 만고 활동하였습니다. 음악가들이 주 고객으로, 음악가 맞춤 굿즈 제작 330건, 커스텀 케이스 제작 59건,
+      <p class="hello-p hello-one">2018년부터 3년간 무노아트(MUNOART)라는 브랜드를 만고 활동하였습니다. 음악가들이 주 고객으로, 음악가 맞춤 굿즈 제작 330건, 커스텀 케이스
+        제작 59건,
         비즈니스 명함 12건, 비즈니스 브랜딩 9건의 <b>비주얼 서비스를 제공한 경험</b>이 있습니다.</p>
       <p class="hello-p hello-two">출판사인 겐토샤 디자인 프로 담당 디자이너로서 사업가들의 비즈니스에 적합한 북 커버 작업 6건을 진행한 경험이 있습니다.</p>
       <p class="hello-p hello-three">
@@ -36,72 +40,79 @@
     <article class="info">
       <h2>My Info</h2>
       <section class="info-all">
-        <ul class="info-title">
-          <li>생년월일</li>
-          <li>전화번호</li>
-          <li>이메일</li>
-          <li>학교/전공</li>
-          <li>희망 근무지</li>
-        </ul>
-        <ul class="info-content">
-          <li>1995.12.16</li>
-          <li>+82 10-9970-5350<br>+81 80-8886-6922</li>
-          <li>soulty321@gmail.com</li>
-          <li>Nihon University College Of Arts<br>Graphic Design Course</li>
-          <li>Seoul / Tokyo</li>
-        </ul>
-      </section>
+
+        <section class="info-content">
+          <p>생년월일</p>
+          <p>1995.12.16</p>
+        </section>
+
+        <section class="info-content">
+          <p>전화번호</p>
+          <p>+82 10-9970-5350<br>+81 80-8886-6922</p>
+        </section>
+
+        <section class="info-content">
+          <p>이메일</p>
+          <p>soulty321@gmail.com</p>
+        </section>
+
+        <section class="info-content">
+          <p>학교/전공</p>
+          <p>Nihon University College Of Arts <br> Graphic Design Course</p>
+        </section>
+
+        <section class="info-content">
+          <p>희망 근무지</p>
+          <p>Seoul / Tokyo</p>
+        </section>
     </article>
 
     <article class="Skill-set">
       <h2>Skill Set</h2>
-
-      <section class="Skill-set-work">
-        <h3>업무 활용 가능</h3>
-        <ul class="Skill-set-work-1">
-          <li>HTML/CSS</li>
-          <li>Bootstrap</li>
-          <li>Photoshop</li>
-          <li>InDesign</li>
-        </ul>
-        <ul class="Skill-set-work-2">
-          <li>JavaScript</li>
-          <li>Tailwind</li>
-          <li>Adobe XD</li>
-          <li>Premire Pro</li>
-        </ul>
-        <ul class="Skill-set-work-3">
-          <li>JQuery</li>
-          <li>Illustrator</li>
-          <li>Figma</li>
-        </ul>
-      </section>
-
-      <section class="Skill-set-hobby">
-        <h3>취미 개발 수준</h3>
-        <ul class="Skill-set-hobby-1">
-          <li>Git</li>
-        </ul>
-        <ul class="Skill-set-hobby-2">
-          <li>chart.js</li>
-        </ul>
-        <ul class="Skill-set-hobby-3">
-          <li>Node.js</li>
-        </ul>
-      </section>
-
-      <section class="Skill-set-basic">
-        <h3>기초 수준</h3>
-        <ul class="Skill-set-basic-1">
-          <li>React</li>
-        </ul>
-      </section>
+      <table class="tg">
+        <thead>
+          <tr>
+            <th class="tg-iks7" rowspan="4">&#11088;&#11088;&#11088;<br>advanced</th>
+            <th class="tg-jbyd">HTML/CSS</th>
+            <th class="tg-jbyd">JavaScript</th>
+            <th class="tg-jbyd">JQurey</th>
+          </tr>
+          <tr>
+            <th class="tg-jbyd">Bootstrap</th>
+            <th class="tg-jbyd">Tailwind</th>
+            <th class="tg-jbyd">Illustrator</th>
+          </tr>
+          <tr>
+            <th class="tg-jbyd">Photoshop</th>
+            <th class="tg-jbyd">Adobe XD</th>
+            <th class="tg-jbyd">Figma</th>
+          </tr>
+          <tr>
+            <th class="tg-jbyd">InDesign</th>
+            <th class="tg-jbyd">Premire Pro</th>
+            <th class="tg-jbyd"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="tg-73oq">&#11088;&#11088;<br>intermediate</td>
+            <td class="tg-wp8o">Git</td>
+            <td class="tg-wp8o">Chart.js</td>
+            <td class="tg-wp8o">Node.js</td>
+          </tr>
+          <tr>
+            <td class="tg-73oq">&#11088;<br>beginner</td>
+            <td class="tg-wp8o">React</td>
+            <td class="tg-wp8o"></td>
+            <td class="tg-wp8o"></td>
+          </tr>
+        </tbody>
+      </table>
     </article>
 
     <article class="Study">
       <h2 class="Study-title">강력한 시각 서비스 개발을 위해 중점으로 공부하는 것은 두 가지가 있습니다.</h2>
-      <img src="./img/Rectangle 41.png" alt="" class="Study-title-block">
-      <h3 class="Study-title-subTitle">효과적인 UX/UI구현</h3>
+      <h2 class="Study-subTitle-one">효과적인 UX/UI구현</h2>
       <p class="Study-title-content">사용자를 끌어들이는 UX/UI의 비밀 (Designing Interfaces: Patterns for Effective Interaction
         Design), 레이아웃 중심의 과제 등을 통해 사용자가
         보기 좋은 여백을 중시하며 화면을 구성해 왔고, 시각적으로 몰입감 있는 UX/UI를 만들기 위해 노력해왔습니다.</p>
@@ -109,24 +120,26 @@
         사용자를 위한 인터페이스에서 중요하다고 느낀 점은 주제의 배치와 여백의 조절이라고 생각합니다. 이러한 부분을 실무에 적용해보고자 ___등의 프로젝트를 만들어 보았습니다. (조금 더 공부해서 내용을
         보충해 보겠습니다.)
       </p>
-      <h3 class="Study-title-subTitle">DOM Control을 통한 사용자 반응형 웹 개발</h3>
+      <h2 class="Study-subTitle-two">DOM Control을 통한 사용자 반응형 웹 개발</h2>
       <p class="Study-title-content">JS를 사용하는 이유는 사용자와 인터렉션 할 수 있게 해주는 언어이기 때문이라고 생각합니다. 그러므로 Event와 Dom을 중점적으로 공부하였고,
         이러한 부분을 실무에 적용해보고자 ___등의 프로젝트를 만들어 보았습니다. (조금 더 공부해서 내용을 보충해 보겠습니다.)</p>
       <img src="./img/git_repo.png" alt="" class="Study-gitRepo">
-      <img src="./img/Rectangle 41.png" alt="" class="Study-title-block">
     </article>
 
     <article class="Project">
       <section class="Project-Content">
-        <h2>1. DTB Music Studio</h2>
+        <h2 class="Project-Content-title">PROJECT</h2>
+        <h3 class="Project-Content-subTitle">1. DTB Music Studio</h3>
         <img src="./img/DTB-1.png" alt="" class="Project-1-img">
-        <ul>
+        <ul class="Project-1-detail">
           <li>리뉴얼 예정</li>
           <li>사용자 : 뮤직 스튜디오의 서비스에 관심있는 사람</li>
           <li>개발인원 : 1명 (본인)</li>
           <li>기간 : 2021/08/30~2021/09/08</li>
           <li>적용기술 : HTML/CSS/JS </li>
           <li>기여부분 : 브랜딩, 기획, 개발, UX/UI</li>
+          <li><a href="https://github.com/Moonhokyun/DtbMusicStudio_Project">Github Link</a></li>
+          <li><a href="http://dtb-music.space/">Project Link</a></li>
         </ul>
       </section>
     </article>
@@ -134,11 +147,13 @@
 
   <footer class="contact">
     <h2>CONTACT</h2>
-    <ul>
-      <li>E-mail</li>
-      <li>Linked in</li>
-      <li>Github</li>
-      <li>Resume</li>
+    <ul class="contact-box">
+      <li class="contact-item"><a href="mailto:soulty321"><i class="fas fa-envelope fa-2x"></i></a></li>
+      <li class="contact-item"><a href="https://www.linkedin.com/in/hokyun-moon-a4a515221">
+      <i class="fab fa-linkedin fa-2x"></i></a></li>
+      <li class="contact-item"><a href="https://github.com/Moonhokyun">
+      <i class="fab fa-github fa-2x"></i></a></li>
+      <li class="contact-item"><a href="https://www.notion.so/a2674b78d6354b65a624640be6c0727b"><i class="fas fa-file fa-2x"></i></a></li>
     </ul>
   </footer>
 

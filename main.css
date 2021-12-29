@@ -62,4 +62,141 @@ h2 {
   line-height: 16px;
   font-weight: normal;
   justify-content: space-between;
+  flex-direction: column;
+}
+
+.info-content {
+  display: flex;
+  justify-content: space-between;
+  text-align: right;
+  padding-bottom: 16px;
+}
+
+.Skill-set {
+  margin-top: 28px;
+  display: flex;
+  font-size: 60%;
+  line-height: 16px;
+  font-weight: normal;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.tg {
+  border: none;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.tg td {
+  border-style: solid;
+  border-width: 0px;
+  overflow: hidden;
+  word-break: normal;
+}
+
+.tg th {
+  border-style: solid;
+  border-width: 0px;
+  overflow: hidden;
+  word-break: normal;
+}
+
+.tg .tg-wp8o {
+  text-align: right;
+  vertical-align: top
+}
+
+.tg .tg-iks7 {
+  text-align: left;
+  vertical-align: top;
+  color: #2D52AB;
+}
+
+.tg .tg-jbyd {
+  text-align: right;
+  vertical-align: top
+}
+
+.tg .tg-73oq {
+  color: #2D52AB;
+  text-align: left;
+  vertical-align: top
+}
+
+.Study {
+  margin-top: 41px;
+}
+
+.Study-title-block {
+  height: 17px;
+  width: 5px;
+}
+
+.Study-subTitle-one::before {
+  background-image: url('./img/Rectangle\ 41.png');
+  width: 5px;
+  height: 17px;
+  content: ' ';
+  display: block;
+  margin-bottom: 20px;
+}
+
+.Study-subTitle-one {
+  margin-top: 26px;
+}
+
+.Study-title-content {
+  font-weight: normal;
+  font-size: 60%;
+  line-height: 16px;
+  font-weight: normal;
+}
+
+.Study-subTitle-two {
+  margin-top: 29px;
+}
+
+.Study-gitRepo {
+  margin-top: 12px;
+  display: block;
+  margin-bottom: 16px;
+}
+
+.Project-Content-title::before {
+  background-image: url('./img/Rectangle\ 41.png');
+  width: 5px;
+  height: 17px;
+  content: ' ';
+  display: block;
+  margin-bottom: 20px;
+}
+
+.Project-Content-subTitle {
+  font-size: 20px;
+  line-height: 32px;
+  color: #2D52AB;
+  font-weight: bold;
+  margin-bottom: 22px;
+}
+
+.Project-1-img {
+  display: block;
+  margin-bottom: 16px;
+}
+
+.Project-1-detail {
+  font-size: 60%;
+  line-height: 16px;
+  font-weight: normal;
+}
+
+.contact {
+  margin-top: 32px;
+  text-align: center;
+}
+
+.contact-box {
+  display: flex;
+  justify-content: space-between;
 }
