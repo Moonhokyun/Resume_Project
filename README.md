@@ -16,11 +16,16 @@
 
 ## 🛠️ Update
 2021.12.29
-> HTML/CSS 작성 완료.
+- HTML/CSS 작성 완료.
 
-> 아직 JavaScript 구동이 안됨 😒. 추후 작동 되도록 추가 예정 
+- ~~아직 dropdown 작동이 안됨 😒.~~<br>
+max-height값을 px로 설정해주니 정상 작동!
 
-> Project 추가 예정
+- Project 추가 예정
+
+- gif 애니메이션 추가 (혹은 css)
+
+- 타이포 자연스럽게 fade-in 되는 효과 주기
 
 ---
 ## 🔗 Link

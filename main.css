@@ -54,8 +54,8 @@ h2 {
 }
 
 .nav-li {
-  float: right;
-  font-size: 18px;
+  float: left;
+  font-size: 20px;
   padding: 15px 20px 14px;
   margin: 0;
   transition: all .1s;
@@ -78,13 +78,12 @@ h2 {
 }
 
 .down {
-  max-height: 100%;
+  max-height: 400px;
 }
 
 .nav-li:hover {
   background: #c6daff;
   width: 100%;
-  -webkit-transform: scale(1.05);
   color: #fff;
   text-align: center;
 }
