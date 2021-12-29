@@ -1,34 +1,51 @@
 # 📄 Resume & Portfolio Web
-작성한 이력서를 바탕으로 자신을 소개하는 사이트
+
+### 😃 About
+<br>
+
+Develop Website based on wrote resume.
+This web is introduce about me what kind of developer.
+
+작성한 이력서를 바탕으로 웹사이트를 제작해 
+본인이 어떤 개발자인지 소개를 해본다. 
 <br>
 <br>
 
-# Introduction
-
-## 😃 About
-작성한 이력서를 바탕으로 웹사이트를 제작해 본인이 어떤 개발자인지 소개를 해본다. 
+### 🎨 Color & Design
+- Realization UX/UI to Figma
+- Responsive web develop
+<br>
 <br>
 
-## 🎨 Color & Design
-- Figma를 이용한 직접 UX/UI 구현
-- 반응형 웹 제작
-<br>
-
-## 🛠️ Update
+### 🛠️ Update
 2021.12.29
-- HTML/CSS 작성 완료.
+<br>
 
-- ~~아직 dropdown 작동이 안됨 😒.~~<br>
-max-height값을 px로 설정해주니 정상 작동!
+- HTML/CSS write
 
-- Project 추가 예정
+- ~~dropdown unworking 😒.~~<br>
+I fixed max-height's unit. % to pixel. It is work!
 
-- gif 애니메이션 추가 (혹은 css)
+- Add project wireframe
 
-- 타이포 자연스럽게 fade-in 되는 효과 주기
+### 💭 I will do
+<br>
+
+- Gif animation or css animation add
+
+- Title text fade-in
+
+### 🐞 Bug list
+<br>
+
+- dropdown menu remained on screen
 
 ---
-## 🔗 Link
+<br>
+
+### 🔗 Link
+<br>
+
 Resume Notion
 > https://chocolate-bottom-3ac.notion.site/a2674b78d6354b65a624640be6c0727b
 
