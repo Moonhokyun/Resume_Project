@@ -1,7 +1,7 @@
 * {
   font-family: 'Noto Sans', sans-serif;
   color: #747474;
-  text-decoration:none;
+  text-decoration: none;
 
 }
 
@@ -26,12 +26,17 @@ h2 {
   color: #2D52AB;
 }
 
+.paragraph {
+  font-size: 60%;
+  line-height: 16px;
+}
+
 /* navbar! */
 .fa-bars {
   color: #fff;
 }
 
-.nav{
+.nav {
   width: 100%;
   margin: auto 0;
   cursor: pointer;
@@ -76,7 +81,6 @@ h2 {
   max-height: 100%;
 }
 
-
 .nav-li:hover {
   background: #c6daff;
   width: 100%;
@@ -104,6 +108,7 @@ h2 {
   line-height: 46px;
   font-weight: 700;
   color: #2D52AB;
+  margin-top: 39px;
 }
 
 .hello-p {
@@ -114,7 +119,7 @@ h2 {
 }
 
 .hello-img {
-  width: 60%;
+  width: 40%;
   display: block;
   margin: 34px auto 28px;
 }
@@ -257,9 +262,51 @@ h2 {
 #contact {
   margin-top: 32px;
   text-align: center;
+  margin: 0 28px 30px;
 }
 
 .contact-box {
   display: flex;
   justify-content: space-between;
+}
+
+@media screen and (min-width: 600px) {
+  .header-title {
+    font-size: 74px;
+    line-height: 100px;
+    font-weight: 700;
+    color: #2D52AB;
+    margin-top: 39px;
+  }
+
+  h2 {
+    font-size: 46px;
+    line-height: 64px;
+    font-weight: 700;
+    margin-bottom: 46px;
+    color: #2D52AB;
+  }
+
+  .paragraph {
+    font-size: 20px;
+    line-height: 40px;
+  }
+
+  .Study-subTitle-one::before {
+    background-image: url('./img/Rectangle\ 41.png');
+    width: 10px;
+    height: 35px;
+    content: ' ';
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .Project-Content-title::before {
+    background-image: url('./img/Rectangle\ 41.png');
+    width: 10px;
+    height: 35px;
+    content: ' ';
+    display: block;
+    margin-bottom: 20px;
+  }
 }
