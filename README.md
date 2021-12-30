@@ -28,7 +28,7 @@ I fixed max-height's unit. % to pixel. It is work!
 - scroll function add
 - media query fix
 - CSS effect add
-
+- Slide add
 ---
 ### 💭 I will do
 - Gif animation or css animation add
