@@ -27,6 +27,7 @@ I fixed max-height's unit. % to pixel. It is work!
 2021.12.30 (THU)
 - scroll function add
 - media query fix
+- CSS effect add
 
 ---
 ### 💭 I will do
