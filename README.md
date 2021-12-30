@@ -11,14 +11,19 @@ This web is introduce about me what kind of developer.
 <br>
 <br>
 
+---
+<br>
+
 ### 🎨 Color & Design
 - Realization UX/UI to Figma
 - Responsive web develop
 <br>
 <br>
+---
+<br>
 
 ### 🛠️ Update
-2021.12.29
+2021.12.29 (WED)
 <br>
 
 - HTML/CSS write
@@ -28,12 +33,20 @@ I fixed max-height's unit. % to pixel. It is work!
 
 - Add project wireframe
 
+2021.12.30 (THU)
+<br>
+
+- scroll function add
+- media query fix
+
+---
+
 ### 💭 I will do
 <br>
 
 - Gif animation or css animation add
 
-- Title text fade-in
+---
 
 ### 🐞 Bug list
 <br>
