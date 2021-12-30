@@ -1,30 +1,21 @@
 # 📄 Resume & Portfolio Web
 
 ### 😃 About
-<br>
-
 Develop Website based on wrote resume.
 This web is introduce about me what kind of developer.
 
 작성한 이력서를 바탕으로 웹사이트를 제작해 
 본인이 어떤 개발자인지 소개를 해본다. 
-<br>
-<br>
 
 ---
-<br>
-
 ### 🎨 Color & Design
 - Realization UX/UI to Figma
 - Responsive web develop
-<br>
-<br>
+
 ---
-<br>
 
 ### 🛠️ Update
 2021.12.29 (WED)
-<br>
 
 - HTML/CSS write
 
@@ -34,31 +25,19 @@ I fixed max-height's unit. % to pixel. It is work!
 - Add project wireframe
 
 2021.12.30 (THU)
-<br>
-
 - scroll function add
 - media query fix
 
 ---
-
 ### 💭 I will do
-<br>
-
 - Gif animation or css animation add
 
 ---
-
 ### 🐞 Bug list
-<br>
-
 - dropdown menu remained on screen
 
 ---
-<br>
-
 ### 🔗 Link
-<br>
-
 Resume Notion
 > https://chocolate-bottom-3ac.notion.site/a2674b78d6354b65a624640be6c0727b
 
