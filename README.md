@@ -23,7 +23,7 @@ This web is introduce about me what kind of developer.
 
 - HTML/CSS write
 
-- ~~dropdown unworking 😒.~~<br>
+- ~~dropdown is not working 😒.~~<br>
 I fixed max-height's unit. % to pixel. It is work!
 
 - Add project wireframe
