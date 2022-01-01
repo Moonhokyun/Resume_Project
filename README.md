@@ -28,9 +28,13 @@ I fixed max-height's unit. % to pixel. It is work!
 - scroll function add
 - media query fix
 - CSS effect add
+
+2022.01.01 (SAT)
+- Japanese Site add
+- Image add
 ---
 ### 💭 I will do
-- Gif animation or css animation add
+- Portfolio update
 
 ---
 ### 🐞 Bug list
