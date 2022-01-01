@@ -101,13 +101,13 @@ h2 {
 
 #hello {
   margin-top: 60px;
-  text-align: right;
+  text-align: center;
   display: flex;
   flex-direction: column;
 }
 
 .header-title {
-  text-align: right;
+  text-align: center;
   font-size: 30px;
   line-height: 40px;
   font-weight: 700;
