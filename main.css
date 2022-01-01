@@ -154,10 +154,6 @@ h2 {
   margin: 20px auto 30px;
 }
 
-#info {
-  margin-bottom: 30px;
-}
-
 .info-all {
   display: flex;
   font-size: 60%;
@@ -172,6 +168,10 @@ h2 {
   justify-content: space-between;
   text-align: right;
   padding-bottom: 20px;
+}
+
+.info-content4 {
+  padding-bottom: 0;
 }
 
 #Skill-set {
@@ -358,8 +358,8 @@ h2 {
     margin: 30px auto 70px;
   }
 
-  #info {
-    margin-bottom: 70px;
+  .info-content4 {
+    padding-bottom: 0;
   }
 
   .info-all {
@@ -488,8 +488,8 @@ h2 {
     margin: 10px auto 60px;
   }
 
-  #info {
-    margin-bottom: 60px;
+  .info-content4 {
+    padding-bottom: 0;
   }
 
   .Skill-set-title .Study-title {
@@ -503,6 +503,7 @@ h2 {
   #Skill-set {
     margin-top: 0px;
   }
+
   .Study-subTitle-one::before {
     background-image: url('./img/Rectangle\ 41.png');
     width: 10px;
