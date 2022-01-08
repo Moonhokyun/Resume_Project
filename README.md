@@ -4,8 +4,11 @@
 Develop Website based on wrote resume.
 This web is introduce about me what kind of developer.
 
-작성한 이력서를 바탕으로 웹사이트를 제작해 
-본인이 어떤 개발자인지 소개를 해본다. 
+작성한 이력서를 바탕으로 
+웹사이트를 제작해 
+본인이 어떤 개발자인지 
+소개를 해본다. 
+(복잡한 문장을 최대한 나누어서 짧게 해석!)
 
 ---
 ### 🎨 Color & Design
